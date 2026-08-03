@@ -1,0 +1,23 @@
+{
+  "name": "Protobuf",
+  "scopeName": "source.proto",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-proto",
+  "injectionRegex": "^(proto)$",
+  "fileTypes": ["proto"],
+  "comments": {
+    "start": "/ "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:treywood/tree-sitter-proto#e9f6b43f6844bd2189b50a422d4e2094313f6aa3",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-proto/tree-sitter-proto.wasm",
+    "highlightsQuery": "tree-sitter-proto/highlights.scm",
+    "foldsQuery": "tree-sitter-proto/folds.scm",
+    "indentsQuery": "tree-sitter-proto/indents.scm",
+    "tagsQuery": "tree-sitter-proto/tags.scm"
+  }
+}

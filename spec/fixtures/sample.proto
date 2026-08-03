@@ -1,0 +1,21 @@
+// Assertions live in the comments: `<- scope` checks the marker's own column
+// on the previous non-comment line, `^ scope` checks the caret's. Scopes
+// match by prefix, so the trailing `.proto` segment is left off.
+
+syntax = "proto3";
+// <- keyword
+//        ^ string
+
+message User {
+// <- keyword
+//           ^ punctuation.definition.block.begin.bracket.curly
+
+  string name = 1;
+//^ support.type
+//              ^ constant.numeric
+
+}
+// <- punctuation.definition.block.end.bracket.curly
+
+// a comment
+// <- comment
