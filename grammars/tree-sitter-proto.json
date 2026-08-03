@@ -1,7 +1,7 @@
 {
   "name": "Protobuf",
   "scopeName": "source.proto",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-proto",
   "injectionRegex": "^(proto)$",
   "fileTypes": ["proto"],
