@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("Protobuf Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-protobuf");
+    await lumine.packages.activatePackage("language-protobuf");
   });
 
   it("tokenizes the fixture", async () => {
