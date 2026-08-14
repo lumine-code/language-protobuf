@@ -11,12 +11,12 @@ Protocol Buffers language support.
 
 ## Installation
 
-To install `language-protobuf` search for _language-protobuf_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-protobuf`.
+To install `language-protobuf` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-protobuf`.
 
 ## Services
 
-- **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.
-- **todo.injection** (`^1.0.0`): consumed to highlight `TODO`-style markers inside comments.
+- `hyperlink.injection`: consumed to highlight URLs in these files as clickable links.
+- `todo.injection`: consumed to highlight `TODO`-style markers inside comments.
 
 ## Contributing
 
