@@ -35,7 +35,8 @@
   (false)
 ] @constant.language.proto
 
-(comment) @comment.line.proto
+((comment) @comment.line.proto
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 "(" @punctuation.definition.arguments.begin.bracket.round.proto
 ")" @punctuation.definition.arguments.end.bracket.round.proto
