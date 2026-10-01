@@ -18,6 +18,7 @@
     "highlightsQuery": "proto-highlights.scm",
     "foldsQuery": "proto-folds.scm",
     "indentsQuery": "proto-indents.scm",
-    "tagsQuery": "proto-tags.scm"
+    "tagsQuery": "proto-tags.scm",
+    "injectionsQuery": "proto-injections.scm"
   }
 }
