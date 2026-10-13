@@ -9,6 +9,8 @@ Protocol Buffers language support.
 - **Folding**: folds messages, enums and services.
 - **Symbol navigation**: messages, enums, services and RPC methods.
 
+![Protobuf syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-protobuf` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-protobuf`.

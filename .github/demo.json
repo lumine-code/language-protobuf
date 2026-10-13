@@ -1,0 +1,16 @@
+{
+  "title": "language-protobuf",
+  "description": "Protobuf syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "00a4ef6d3320d6bbaaf696d09cd41f1dbacbd9fb",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Protobuf syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
