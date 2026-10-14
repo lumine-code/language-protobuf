@@ -1,16 +1,61 @@
 {
   "title": "language-protobuf",
-  "description": "Protobuf syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "00a4ef6d3320d6bbaaf696d09cd41f1dbacbd9fb",
+  "description": "Protobuf syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "f562a17e1d0bdbd3a8d99ed67f6a594dca391e42",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "19b868ae39e9455fd0a91073ecc2f38e7cef18e70467e3111b8a2507de74fab3",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "0362a9fac7d6e153a768c0381800d6f3eb06647a",
+      "dirty": true,
+      "workingTreeHash": "1d75658a8b7d55a69c806a3786c562863bb9d5c71cbf96b3084c6a78c0d648b4"
+    },
+    "package": {
+      "revision": "f562a17e1d0bdbd3a8d99ed67f6a594dca391e42",
+      "dirty": true,
+      "workingTreeHash": "ea5dfe09e604ff499b39c9adb61c0e9a62733f1d76f9822a9118c5761c14e03e"
+    },
+    "language-protobuf": {
+      "revision": "f562a17e1d0bdbd3a8d99ed67f6a594dca391e42",
+      "dirty": true,
+      "workingTreeHash": "ea5dfe09e604ff499b39c9adb61c0e9a62733f1d76f9822a9118c5761c14e03e"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.proto",
+      "sha256": "4dcf72437b00f884aeefb66bbf1e5f49a5687a181cec2a7b8a197fe9addf5ce7"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Protobuf syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "63ad463de35008d942bdc5fe5cf769c716aabc9e44f740fbe452afe76092e1fd"
     }
   ]
 }
