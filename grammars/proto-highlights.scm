@@ -36,7 +36,10 @@
 ] @constant.language.proto
 
 ((comment) @comment.line.proto
+  (#match? @comment.line.proto "^//")
   (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
+((comment) @comment.block.proto
+  (#match? @comment.block.proto "^/\\*"))
 
 "(" @punctuation.definition.arguments.begin.bracket.round.proto
 ")" @punctuation.definition.arguments.end.bracket.round.proto
